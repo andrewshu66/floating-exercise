@@ -1,0 +1,29 @@
+.nav-profile-brand {
+  max-height: 50px;
+}
+.container {
+  font-size: 24px;
+  margin-top: 12.5px;
+  margin-bottom: 12.5px;
+}
+.navbar-fixed-top {
+  background-color: #99ff99;
+  position: fixed;
+}
+.nav.navbar-nav li a{
+  color: #000066;
+}
+.navbar-nav{
+  float: right;
+}
+.menu:hover{
+  background-color: #66ccff;
+}
+.navbar-right{
+  margin-right: 15px;
+}
+.btn-media{
+  height: 30px;
+  width: 50px;
+  margin-top: 10px;
+}
