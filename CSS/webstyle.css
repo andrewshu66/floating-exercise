@@ -7,9 +7,6 @@
   float: left;
   padding-left: 25px;
 }
-.button{
-
-}
 .container {
   font-size: 18px;
   margin-top: 12.5px;
@@ -24,12 +21,8 @@
   color: #000066;
   color: #ffffff;
 }
-
 .menu:hover{
   background-color: #66ccff;
-}
-.navbar-right{
-  margin-right: 15px;
 }
 .btn-media{
   height: 30px;
