@@ -1,21 +1,30 @@
 .nav-profile-brand {
   max-height: 50px;
 }
+.navbar-brand{
+  height: 50px;
+  padding: 0;
+  float: left;
+  padding-left: 25px;
+}
+.button{
+
+}
 .container {
-  font-size: 24px;
+  font-size: 18px;
   margin-top: 12.5px;
   margin-bottom: 12.5px;
 }
 .navbar-fixed-top {
-  background-color: #99ff99;
+  background: #ff9933;
   position: fixed;
+  border-color: transparent;
 }
 .nav.navbar-nav li a{
   color: #000066;
+  color: #ffffff;
 }
-.navbar-nav{
-  float: right;
-}
+
 .menu:hover{
   background-color: #66ccff;
 }
@@ -26,4 +35,27 @@
   height: 30px;
   width: 50px;
   margin-top: 10px;
+}
+.home{
+  background-image: url("http://www.uzmanpdr.com/wp-content/uploads/2015/10/egit3.jpg");
+  height: 750px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.intro{
+  vertical-align: middle;
+  display: table-cell;
+  font-size: 100px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.intro:hover{
+  color: #000000;
+}
+#welcome{
+  display: table;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  position: relative;
 }
