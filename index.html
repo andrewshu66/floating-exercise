@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title> MeritHero </title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -16,19 +16,19 @@
     </head>
 
     <body>
-        <div class="header home">
+        <div class="header">
             <div class="navbar navbar-default navbar-fixed-top">
                 <div class="container">
                     <div class="navbar-header">
                         <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle"></button> <!-- Ask kevin how to convert the navbar into a dropdown menu when the browser is resized -->
                           <a class="navbar-brand" href="#about"> <!-- This would be the company logo whhich when pressed would navigate to the "about" page -->
-                            <img class="nav-profile-brand" src="./Images/pokeball.png">
+                            <img class="nav-profile-brand" src="CSS/Images/pokeball.png"> <!-- With the image folder in the CSS folder, navigate the css to the image folder -->
                           </a>
                     </div>
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <ul class="nav navbar-nav navbar-right">
-                            <li class="menu"> <a href="index.html" class="item"> Home </a> </li>
-                            <li class="menu"> <a href="mission.html" class="item"> Our Mission </a> </li>
+                            <li class="menu"> <a href="#welcome" class="item"> Home </a> </li>
+                            <li class="menu"> <a href="#mission" class="item"> Our Mission </a> </li>
                             <li class="menu"> <a href="about.html" class="item"> About </a> </li>
                             <li class="menu"> <a href="contact.html" class="item"> Contact Us </a> </li>
                             <li class="menu"> <a href="download.html" class="item"> Download </a> </li>
@@ -37,15 +37,20 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div class="welcome section">
             <div id="welcome">
+                <h1 class="welcome-head"> MeritHero </h1>
                 <p class="intro"> Motivation for Education </p>
             </div>
         </div>
 
-        <section class="mission" id="mission">
-            <div class="container">
+        <div class="mission section">
+            <div id="mission">
+                <p> </p>
             </div>
-        </section>
+        </div>
 
 
 
