@@ -1,3 +1,6 @@
+div{
+  transition-duration: 2s;
+}
 .nav-profile-brand {
   max-height: 50px;
 }
@@ -14,6 +17,7 @@
 }
 .navbar-fixed-top {
   background: #ff9933;
+  background: transparent;
   position: fixed;
   border-color: transparent;
 }
@@ -29,18 +33,22 @@
   width: 50px;
   margin-top: 10px;
 }
-.home{
-  background-image: url("http://www.uzmanpdr.com/wp-content/uploads/2015/10/egit3.jpg");
+.section{
   height: 750px;
   background-size: cover;
   background-repeat: no-repeat;
 }
+.welcome{
+  background-image: url("images/background.png");
+}
+.mission{
+  background-image: url("images/pokemon.png")
+}
 .intro{
-  vertical-align: middle;
-  display: table-cell;
-  font-size: 100px;
+  font-size: 75px;
   font-weight: 600;
-  color: #ffffff;
+  color: #003366;
+  font-style: italic;
 }
 .intro:hover{
   color: #000000;
@@ -51,4 +59,11 @@
   width: 100%;
   text-align: center;
   position: relative;
+}
+.welcome-head{
+  text-align: center;
+  font-size: 125px;
+  font-weight: 700;
+  padding-top: 150px;
+  color: #993399
 }
