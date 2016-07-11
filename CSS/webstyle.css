@@ -39,10 +39,10 @@ div{
   background-repeat: no-repeat;
 }
 .welcome{
-  background-image: url("images/background.png");
+  background-image: url("Images/background.png");
 }
 .mission{
-  background-image: url("images/pokemon.png")
+  background-image: url("Images/pokemon.png")
 }
 .intro{
   font-size: 75px;
