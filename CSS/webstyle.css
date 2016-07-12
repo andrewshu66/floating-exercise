@@ -22,8 +22,8 @@ div{
   border-color: transparent;
 }
 .nav.navbar-nav li a{
-  color: #000066;
-  color: #ffffff;
+  color: #33cc33;
+
 }
 .menu:hover{
   background-color: #66ccff;
@@ -38,11 +38,15 @@ div{
   background-size: cover;
   background-repeat: no-repeat;
 }
+h1{
+  margin-top: 0;
+}
 .welcome{
   background-image: url("Images/background.png");
 }
 .mission{
-  background-image: url("Images/pokemon.png")
+  background-color: #99ccff;
+  font-size: 75px;
 }
 .intro{
   font-size: 75px;
@@ -65,5 +69,16 @@ div{
   font-size: 125px;
   font-weight: 700;
   padding-top: 150px;
-  color: #993399
+  color: #993399;
+}
+.text-center{
+  text-align: center;
+}
+.text-left{
+  text-align: left;
+}
+.contact{
+}
+.about{
+  background-image: url("Images/pokemon.png");
 }
