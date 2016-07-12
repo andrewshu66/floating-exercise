@@ -16,14 +16,12 @@ div{
   margin-bottom: 12.5px;
 }
 .navbar-fixed-top {
-  background: #ff9933;
-  background: transparent;
+  background: rgba(46,187,70,0.6);
   position: fixed;
   border-color: transparent;
 }
 .nav.navbar-nav li a{
-  color: #33cc33;
-
+  color: #1a1a1a;
 }
 .menu:hover{
   background-color: #66ccff;
@@ -43,10 +41,17 @@ h1{
 }
 .welcome{
   background-image: url("Images/background.png");
+  background-size: 100% 100%;
 }
 .mission{
-  background-color: #99ccff;
+  background-color: rgba(153, 204, 255, 1);
   font-size: 75px;
+}
+.rocket{
+  font-size: 36px;
+  padding: 100px;
+  font-style: italic;
+  font-weight: 500;
 }
 .intro{
   font-size: 75px;
@@ -77,8 +82,15 @@ h1{
 .text-left{
   text-align: left;
 }
-.contact{
-}
 .about{
   background-image: url("Images/pokemon.png");
+  background-size: 100% 100%;
+}
+.profile{
+
+}
+.contact{
+  background-image: url("Images/pikachu.jpg");
+  background-size: 100% 100%;
+  font-size: 72px;
 }
