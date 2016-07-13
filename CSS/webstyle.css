@@ -31,6 +31,9 @@ div{
   width: 50px;
   margin-top: 10px;
 }
+.section-home{
+  height: 750px;
+}
 .section{
   height: 100%;
   background-size: 100% 100%;
@@ -59,11 +62,11 @@ h1{
 .intro{
   font-size: 75px;
   font-weight: 600;
-  color: #003366;
+  color: rgba(255, 255, 255, 1);
   font-style: italic;
 }
 .intro:hover{
-  color: #000000;
+  color: #003366;
 }
 #welcome{
   display: table;
@@ -77,8 +80,7 @@ h1{
   font-size: 125px;
   font-weight: 700;
   padding-top: 150px;
-  padding-bottom: 150px;
-  color: #993399;
+  color: rgba(0, 51, 102, 1);
 }
 .text-center{
   text-align: center;
@@ -106,7 +108,7 @@ h1{
 }
 .pic{
   text-align: center;
-  background-color: rgba(91, 122, 153, 0.7);
+  /*background-color: rgba(91, 122, 153, 0.7);*/
   padding-top: 10px;
   padding-bottom: 10px; /*Did I have to lower the padding from 20 to 10 or could i have just increaed the content height */
 }
@@ -144,6 +146,8 @@ h1{
   background-size: 100% 100%;
   background-repeat: no-repeat;
   font-size: 72px;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 .form-control{
   width: 40%;
