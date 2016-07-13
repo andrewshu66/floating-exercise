@@ -20,11 +20,18 @@
             <div class="navbar navbar-default navbar-fixed-top">
                 <div class="container">
                     <div class="navbar-header">
-                        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle"></button> <!-- Ask kevin how to convert the navbar into a dropdown menu when the browser is resized -->
+                        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                          <span class="sr-only"> Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        </button> <!-- Ask kevin how to convert the navbar into a dropdown menu when the browser is resized -->
+
                           <a class="navbar-brand" href="#about"> <!-- This would be the company logo whhich when pressed would navigate to the "about" page -->
                             <img class="nav-profile-brand" src="CSS/Images/pokeball.png"> <!-- With the image folder in the CSS folder, navigate the css to the image folder -->
                           </a>
                     </div>
+
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <ul class="nav navbar-nav navbar-right">
                             <li class="menu"> <a href="#welcome" class="item"> Home </a> </li>
@@ -59,7 +66,7 @@
                      Team Rocket blast off at the speed of light!
                      Surrender now or prepare to fight! <a href="http://cdn.bulbagarden.net/upload/thumb/d/d6/052Meowth.png/250px-052Meowth.png">Meowth</a>. That's right!
                 </p>
-                <p class="rocket text-right"> - Team Rocket </p>
+                <p class="rocket text-right"> - <span class="rocket-red">Team</span> <span class="rocket-blue">Rocket</span> </p>
             </div>
         </div>
 
@@ -89,7 +96,7 @@
                                 <div class="profile-name"> Andrew Hu </div>
                                 <div class="profile-pic">
 
-                                    <img src="CSS/Images/Vlad.jpg"> <!-- Images' name have to be exact with the file -->
+                                    <img src="CSS/Images/Vlad.jpg" class="pictures"> <!-- Images' name have to be exact with the file -->
                                         <div class="hover-text"> Writes code </div>
                                     </img>
 
@@ -122,7 +129,7 @@
                                 <div class="profile-pic">
 
                                     <img src="CSS/Images/TawnyPayton.jpg"> <!-- Images' name have to be exact with the file -->
-                                        <div class="hover-text"> . </div>
+                                        <div class="hover-text"> Insecure about herself </div>
                                     </img>
 
                                 </div>
@@ -197,18 +204,21 @@
             </div>
         </div>
 
+        <div class="download-app section col-sm-12">
+            <div id="download">
+                <div class="container">
+                    <h1 class="text-center download-content"> Download Now: </h1>
+
+                    <img src="">
+
+                    <hr>
 
 
 
 
 
 
-
-
-
-
-
-
+                </div>
 
 
       <script src="https://code.jquery.com/jquery-1.12.2.min.js"></script>

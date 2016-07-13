@@ -20,6 +20,10 @@ div{
   position: fixed;
   border-color: transparent;
 }
+.navbar-toggle{
+  border-radius: 2px;
+  border-color: cyan;
+}
 .nav.navbar-nav li a{
   color: #1a1a1a;
 }
@@ -48,16 +52,22 @@ h1{
   opacity: 1 ;
 }
 .mission{
-  background-color: rgba(153, 204, 255, 1);
+  background-color: rgba(22, 22, 22, 1);
   font-size: 75px;
 }
 .rocket{
   font-size: 36px;
   padding-top: 50px;
   padding-bottom: 50px;
-
+  color: #fff;
   font-style: italic;
   font-weight: 500;
+}
+.rocket-red{
+  color: red;
+}
+.rocket-blue{
+  color: blue;
 }
 .intro{
   font-size: 75px;
@@ -133,6 +143,7 @@ h1{
   padding-top: 65px;
   font-size: 20px;
   margin-bottom: 70px;
+
 }
 .pic:hover .hover-text{
   display: block;
@@ -140,6 +151,7 @@ h1{
 .contact-content{
   font-size: 108px;
   font-weight: 800;
+  color: #ffffff;
 }
 .contact{
   background-image: url("Images/pikachu.jpg");
@@ -161,4 +173,21 @@ h1{
 .btn-custom{
   margin-top: 15px;
   font-size: 20px;
+}
+.download-app{
+  background-color: rgba(0, 51, 102, 1);
+}
+.download-content{
+  color: #ffffff;
+  padding-top: 20px;
+}
+hr {
+  height: 5px;
+  border: 1px solid #ffffff;
+  background-color: #fff;
+  width: 50%;
+}
+.pictures{
+  height: 180px;
+  width: 180px;
 }
