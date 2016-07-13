@@ -57,11 +57,12 @@ h1{
 }
 .rocket{
   font-size: 36px;
+  font-family: 'Helvetica', 'Arial', sans-serif;
   padding-top: 50px;
   padding-bottom: 50px;
   color: #fff;
   font-style: italic;
-  font-weight: 500;
+  font-weight: 400;
 }
 .rocket-red{
   color: red;
@@ -70,7 +71,7 @@ h1{
   color: blue;
 }
 .intro{
-  font-size: 75px;
+  font-size: 50px;
   font-weight: 600;
   color: rgba(255, 255, 255, 1);
   font-style: italic;
@@ -149,8 +150,8 @@ h1{
   display: block;
 }
 .contact-content{
-  font-size: 108px;
-  font-weight: 800;
+  font-size: 72px;
+  font-weight: 500;
   color: #ffffff;
 }
 .contact{
