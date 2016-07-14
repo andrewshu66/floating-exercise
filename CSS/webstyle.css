@@ -100,7 +100,8 @@ h1{
   text-align: left;
 }
 .about{
-  background-image: url("Images/pokemon.png");
+  /*background-image: url("Images/pokemon.png");*/
+  background-color: rgba(176, 173, 2200, 1);
   background-size: 100% 100%;
 }
 .row{
@@ -155,9 +156,10 @@ h1{
   color: #ffffff;
 }
 .contact{
-  background-image: url("Images/pikachu.jpg");
+  /*background-image: url("Images/pikachu.jpg");*/
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  background-color: rgba(198, 221, 174, 1);
   font-size: 72px;
   padding-top: 50px;
   padding-bottom: 100px;
@@ -176,7 +178,7 @@ h1{
   font-size: 20px;
 }
 .download-app{
-  background-color: rgba(0, 51, 102, 1);
+  background-color: rgba(124, 113, 157, 1);
 }
 .download-content{
   color: #ffffff;
