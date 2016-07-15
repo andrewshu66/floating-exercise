@@ -12,6 +12,7 @@
 
         <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
         <link rel="stylesheet" href="CSS/webstyle.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
     </head>
 
     <body>
@@ -37,7 +38,7 @@
                             <li class="menu"> <a href="#mission" class="item"> Our Mission </a> </li>
                             <li class="menu"> <a href="#about" class="item"> About </a> </li>
                             <li class="menu"> <a href="#contact" class="item"> Contact Us </a> </li>
-                            <li class="menu"> <a href="#download" class="item"> Download </a> </li>
+                            <li class="menu"> <a href="#download" class="item"> Media </a> </li>
                             <li class="menu"> <a href="registration.html" class="item"> Log In </a> </li>
                         </ul>
                     </div>
@@ -60,16 +61,7 @@
                     <hr class="colored-center-line">
 
                     <p class="text-center cause">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Donec est elit, convallis ut augue eget,
-                    finibus interdum nibh. Fusce at erat at nisi
-                    placerat fringilla eu eu lectus. Nulla convallis
-                    vitae ligula ac faucibus. Fusce viverra, velit vel
-                    tincidunt eleifend, ligula orci suscipit est, volutpat
-                    volutpat metus eros in enim. Integer tincidunt eros vitae
-                    lorem consequat consectetur. Sed nec turpis tincidunt, efficitur
-                    augue nec, convallis metus. Etiam mi tortor, vulputate et efficitur
-                    quis, varius a orci. Aenean in mauris est. Proin commodo ipsum molestie sagittis feugiat.
+                    Merit Hero intends ot
                     </p>
                 </div>
             </div>
@@ -133,7 +125,7 @@
                                 <div class="profile-name"> Seraphina Botero </div>
                                 <div class="profile-pic">
 
-                                    <img src="CSS/Images/profilebotero1.jpg" class="pictures"> <!-- Images' name have to be exact with the file -->
+                                    <img src="CSS/Images/profilebotero2.jpg" class="pictures"> <!-- Images' name have to be exact with the file -->
                                         <div class="hover-text">  </div>
                                     </img>
 
@@ -199,24 +191,38 @@
 
                     <div class="form-group">
                         <label for="subject" class="subject"> Message </label>
-                        <input type="text" class="form-control" id="type-message" placeholder="Type your message here...">
+                        <textarea class="form-control message-box" id="type-message" placeholder=""></textarea>
                     </div>
 
 
-                <button class="btn btn-primary btn-custom" id="send-button"> Send </button>
+                <button class="btn btn-primary btn-custom" type="submit" id="send-button"> Send </button>
               </div>
 
             </div>
         </div>
 
-        <div class="download-app section col-sm-12">
-            <div id="download">
+        <div class="footer col-sm-12">
+            <footer>
                 <div class="container">
-                    <h1 class="text-center download-content"> Download Now: </h1>
+                    <h1 class="text-center follow-content"> Follow us at </h1>
 
-                    <img src="">
+                    <!--<hr class="download-line-break">-->
 
-                    <hr class="download-line-break">
+                    <ul class="social-media-icons list-inline text-center">
+
+                        <a href="https://facebook.com/merithero" target="_blank">
+                            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                        </a>
+
+                        <a href="https://twitter.com/" class="" target="_blank">
+                            <i class="fa fa-twitter icon-space" aria-hidden="true"></i>
+                        </a>
+
+                        <!-- <a href="https://" target="_blank">
+                            <i class="fa fa-instagram icon-space" aria-hidden="true"></i>
+                        </a> -->
+
+                    </ul>
 
 
 
@@ -224,6 +230,8 @@
 
 
                 </div>
+            </footer>
+        </div>
 
       <script src="webfunction.js"></script>
       <script src="https://code.jquery.com/jquery-1.12.2.min.js"></script>

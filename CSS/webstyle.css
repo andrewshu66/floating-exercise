@@ -185,16 +185,45 @@ h1{
 .form-group{
   padding-top: 30px;
 }
+.message-box{
+  height: 150px;
+}
 .btn-custom{
   margin-top: 15px;
   font-size: 20px;
 }
-.download-app{
-  background-color: rgba(124, 113, 157, 1);
+.social-media-icons i.fa.fa-facebook-square{
+  font-size: 50px;
+  color: rgba(0, 0, 102, 1);
+  padding-top: 15px;
 }
-.download-content{
+.social-media-icons i.fa.fa-twitter{
+  font-size: 50px;
+  color: rgba(0, 132, 180, 1);
+  padding-top: 15px;
+}
+.social-media-icons i.fa.fa-twitter{
+  font-size: 50px;
+  color: rgba(0, 132, 180, 1);
+  padding-top: 15px;
+}
+.icon-space{
+  padding-left: 50px;
+}
+.footer{
+  background-color: rgba(124, 113, 157, 1);
+  height: 250px;
+}
+.follow-content{
   color: #ffffff;
   padding-top: 20px;
+  font-size: 48px;
+}
+.app-button{
+  width: 278px;
+  height: 86px;
+  margin-left: auto;
+  margin-right: auto;
 }
 hr .download-line-break{
   height: 5px;
@@ -233,8 +262,8 @@ hr .download-line-break{
   text-align: center;
   padding-top: 45px;
   padding-bottom: 30px;
-  margin-left: 360px;
-  margin-right: 360px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .login-user, .login-pass, .btn-login{
   width: 350px;
