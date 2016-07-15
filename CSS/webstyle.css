@@ -214,7 +214,17 @@ hr .download-line-break{
   margin-top: 0;
   margin-bottom: 0;
   height: 705px;
-  position: relative;
+
+}
+.promote{
+  color: #fff;
+  font-size: 48px;
+  text-align: center;
+  padding-top: 40px;
+  font-weight: bold;
+}
+.form-group-login{
+  padding-top: 40px;
 }
 .login-section{
   background-color: rgba(255, 255, 255, 0.3);
@@ -223,6 +233,8 @@ hr .download-line-break{
   text-align: center;
   padding-top: 45px;
   padding-bottom: 30px;
+  margin-left: 360px;
+  margin-right: 360px;
 }
 .login-user, .login-pass, .btn-login{
   width: 350px;
@@ -236,5 +248,13 @@ hr .download-line-break{
 }
 .btn-login{
   font-size: 28px;
+  color: #fff;
   margin-top: 30px;
+  background-color: rgba(49, 176, 45, 1);
+}
+.account-signup{
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  padding-top: 35px;
 }
