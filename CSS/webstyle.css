@@ -143,20 +143,20 @@ h1{
   font-size: 60px;
   font-weight: 700;
 }
-.hover-text{
+/*.hover-text{
   background-color: rgba(153, 255, 153, 0.5);
   display: none;
   position: absolute;
   bottom: 0;
   height: 150px;
-  width: 360px; /* Do I have to adjust the width of textbox to the width of the column or is there an easier method? */
+  width: 360px; /* Do I have to adjust the width of textbox to the width of the column or is there an easier method?
   border-radius: 25px;
   color: #000000;
   text-align: center;
   font-weight: 700;
   padding-top: 65px;
   font-size: 20px;
-  margin-bottom: 70px;
+  margin-bottom: 70px;*/
 
 }
 .pic:hover .hover-text{
