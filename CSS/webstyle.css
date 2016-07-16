@@ -235,11 +235,11 @@ hr .download-line-break{
   height: 180px;
   width: 180px;
 }
-.login{
+.login, .signup{
   background-image: url("Images/background.png");
   background-size: 100% 100%;
 }
-.container-login{
+.container-login, .container-signup{
   margin-top: 0;
   margin-bottom: 0;
   height: 705px;
@@ -252,38 +252,53 @@ hr .download-line-break{
   padding-top: 40px;
   font-weight: bold;
 }
-.form-group-login{
+.form-group-login, .form-group-signup{
   padding-top: 40px;
 }
-.login-section{
+.login-section, .signup-section{
   background-color: rgba(255, 255, 255, 0.3);
   width: 450px;
-  height: 300px;
   text-align: center;
   padding-top: 45px;
   padding-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
 }
-.login-user, .login-pass, .btn-login{
+.signup-section{
+  background-color: rgba(255, 255, 255, 0);
+}
+.login-user, .login-pass, .btn-login, .signup-name, .signup-school, .signup-email, .signup-pass, .signup-pass-confirm, .btn-signup{
   width: 350px;
   height: 50px;
   border-color: transparent;
   z-index: 1;
   font-size: 24px;
 }
-.login-pass{
+.login-pass, .signup-school, .signup-email, .signup-pass, .signup-pass-confirm{
   margin-top: 30px;
 }
-.btn-login{
+.signup-name, .signup-school, .signup-email, .signup-pass, .signup-pass-confirm{
+  border-radius: 5px;
+}
+::-webkit-input-placeholder {
+  color: rgba(22, 22, 22, 0.5);
+  font-weight: 500;
+}
+.btn-login, .btn-signup{
   font-size: 28px;
   color: #fff;
   margin-top: 30px;
   background-color: rgba(49, 176, 45, 1);
 }
-.account-signup{
+.account-signup,{
   color: #fff;
   text-align: center;
   font-size: 22px;
   padding-top: 35px;
+}
+.account-login{
+ color: #fff;
+ text-align: center;
+ font-size: 24px;
+ padding-top: 10px;
 }
