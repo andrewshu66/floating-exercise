@@ -10,6 +10,7 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Cousine">
         <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
         <link rel="stylesheet" href="CSS/webstyle.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
@@ -25,21 +26,21 @@
                           <span class="icon-bar"></span>
                           <span class="icon-bar"></span>
                           <span class="icon-bar"></span>
-                        </button> <!-- Ask kevin how to convert the navbar into a dropdown menu when the browser is resized -->
+                        </button> <!-- How to convert the navbar into a dropdown menu when the browser is resized -->
 
                           <a class="navbar-brand" href="#welcome"> <!-- This would be the company logo whhich when pressed would navigate to the "about" page -->
-                            <img class="nav-profile-brand" src="CSS/Images/meritherologo.png"> <!-- With the image folder in the CSS folder, navigate the css to the image folder -->
+                            <img class="nav-profile-brand" src="CSS/Images/meritherologo2.png"> <!-- With the image folder in the CSS folder, navigate the css to the image folder -->
                           </a>
                     </div>
 
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <ul class="nav navbar-nav navbar-right">
-                            <li class="menu"> <a href="#welcome" class="item"> Home </a> </li>
-                            <li class="menu"> <a href="#mission" class="item"> Our Mission </a> </li>
-                            <li class="menu"> <a href="#about" class="item"> About </a> </li>
-                            <li class="menu"> <a href="#contact" class="item"> Contact Us </a> </li>
-                            <li class="menu"> <a href="#media" class="item"> Media </a> </li>
-                            <li class="menu"> <a href="login.html" class="item"> Log In </a> </li>
+                            <li class="menu"> <a href="index.html" class="item"> Home </a> </li>
+                            <!--<li class="menu"> <a href="#mission" class="item"> Our Mission </a> </li> -->
+                            <li class="menu"> <a href="about.html" class="item"> About </a> </li>
+                            <li class="menu"> <a href="contact.html" class="item"> Contact Us </a> </li>
+                            <!-- <li class="menu"> <a href="#media" class="item"> Media </a> </li> -->
+                            <li class="menu"> <a href="login.html" class="item"> Account </a> </li>
                         </ul>
                     </div>
                 </div>
@@ -48,14 +49,16 @@
 
         <div class="welcome section-home col-sm-12">
             <div id="welcome">
-                <h1 class="welcome-head"> Merit Hero </h1>
-                <p class="intro "> Motivation for Education </p>
+                <div class="container">
+                    <h1 class="welcome-head"> Merit Hero </h1>
+                    <p class="intro "> We're a local organization aiming to identify, locate, and lessen the education gap between students. </p>
+                </div>
             </div>
         </div>
 
         <div class="mission section col-sm-12">
             <div id="mission">
-                <div class="container">
+                <div class="container goal">
                     <h1 class="text-center mission-top"> Our Mission </h1>
 
                     <hr class="colored-center-line">
@@ -67,10 +70,11 @@
             </div>
         </div>
 
-        <div class="about section col-sm-12">
+<!-- About section moved to separate file -->
+<!--        <div class="about section col-sm-12">
             <div id="about">
                 <div class="container">
-                    <div class="container-content"> About Us </div>
+                    <div class="team-content"> About Us </div>
                     <div class="row">
                         <div class="col-lg-4">
                             <div class="pic">
@@ -78,7 +82,7 @@
                                 <div class="profile-name"> Cooper deNicola </div>
                                 <div class="profile-pic">
 
-                                    <img src="CSS/Images/denicola1.jpg" class="pictures"> <!-- Images' name have to be exact with the file -->
+                                    <img src="CSS/Images/denicola1.jpg" class="pictures"> <!-- Images' name have to be exact with the file
                                         <div class="hover-text">  </div>
                                     </img>
 
@@ -93,7 +97,7 @@
                                 <div class="profile-name"> Andrew Hu </div>
                                 <div class="profile-pic">
 
-                                    <img src="CSS/Images/profilehu2-1.jpg" class="pictures"> <!-- Images' name have to be exact with the file -->
+                                    <img src="CSS/Images/profilehu2-1.jpg" class="pictures"> <!-- Images' name have to be exact with the file
                                         <div class="hover-text">  </div>
                                     </img>
 
@@ -108,7 +112,7 @@
                                 <div class="profile-name"> Audrey Howard </div>
                                 <div class="profile-pic">
 
-                                    <img src="CSS/Images/profilehoward1.jpg" class="pictures"> <!-- Images' name have to be exact with the file -->
+                                    <img src="CSS/Images/profilehoward1.jpg" class="pictures"> <!-- Images' name have to be exact with the file
                                         <div class="hover-text">  </div>
                                     </img>
 
@@ -125,7 +129,7 @@
                                 <div class="profile-name"> Seraphina Botero </div>
                                 <div class="profile-pic">
 
-                                    <img src="CSS/Images/profilebotero2.jpg" class="pictures"> <!-- Images' name have to be exact with the file -->
+                                    <img src="CSS/Images/profilebotero2.jpg" class="pictures"> <!-- Images' name have to be exact with the file
                                         <div class="hover-text">  </div>
                                     </img>
 
@@ -140,7 +144,7 @@
                                 <div class="profile-name"> Ariana Torres-Malaga </div>
                                 <div class="profile-pic">
 
-                                    <img src="CSS/Images/profiletorresmalaga1.jpg" class="pictures"> <!-- Images' name have to be exact with the file -->
+                                    <img src="CSS/Images/profiletorresmalaga1.jpg" class="pictures"> <!-- Images' name have to be exact with the file
                                         <div class="hover-text">  </div>
                                     </img>
 
@@ -155,7 +159,7 @@
                                 <div class="profile-name"> Saher Damji </div>
                                 <div class="profile-pic">
 
-                                    <img src="CSS/Images/profiledamji1.jpg" class="pictures"> <!-- Images' name have to be exact with the file -->
+                                    <img src="CSS/Images/profiledamji1.jpg" class="pictures"> <!-- Images' name have to be exact with the file
                                         <div class="hover-text">  </div>
                                     </img>
 
@@ -168,70 +172,40 @@
 
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <div class="contact section col-sm-12">
-            <div id="contact">
-                <h1 class="text-left contact-content"> Contact us </h1>
+<!-- Moved contact section to separate file -->
 
-                <div class="container">
-                    <div class="form-group">
-                        <label for="Name" class="name"> Name </label>
-                        <input type="text" class="form-control" id="type-name" placeholder="Type your name here...">
-                    </div>
+<!-- Section for image for parallax scrolling -->
 
+        <footer class="footer col-sm-12">
+            <div class="container">
 
+                <ul class="social-media-icons list-inline text-center">
 
-                    <div class="form-group">
-                        <label for="sender" class="sender"> Email </label>
-                        <input type="text" class="form-control" id="type-email" placeholder="Type your email here...">
-                    </div>
+                    <!-- <p class="merithero-social"> Merit Hero </p> -->
 
+                    <!--<hr class="merithero-underline">-->
 
+                    <a href="https://facebook.com/merithero" target="_blank">
+                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                    </a>
 
-                    <div class="form-group">
-                        <label for="subject" class="subject"> Message </label>
-                        <textarea class="form-control message-box" id="type-message" placeholder=""></textarea>
-                    </div>
+                    <a href="https://twitter.com/" class="" target="_blank">
+                        <i class="fa fa-twitter icon-space" aria-hidden="true"></i>
+                    </a>
 
+                    <hr class="media-line-break">
 
-                <button class="btn btn-primary btn-custom" type="submit" id="send-button"> Send </button>
-              </div>
+                    <p class="copyright"> © 2016 Merit Hero </p>
 
+                    <!-- <a href="https://" target="_blank">
+                        <i class="fa fa-instagram icon-space" aria-hidden="true"></i>
+                    </a> -->
+
+                </ul>
             </div>
-        </div>
-
-        <div class="footer col-sm-12">
-            <footer id="media">
-                <div class="container">
-                    <h1 class="text-center follow-content"> Follow us at </h1>
-
-                    <!--<hr class="download-line-break">-->
-
-                    <ul class="social-media-icons list-inline text-center">
-
-                        <a href="https://facebook.com/merithero" target="_blank">
-                            <i class="fa fa-facebook-square" aria-hidden="true"></i>
-                        </a>
-
-                        <a href="https://twitter.com/" class="" target="_blank">
-                            <i class="fa fa-twitter icon-space" aria-hidden="true"></i>
-                        </a>
-
-                        <!-- <a href="https://" target="_blank">
-                            <i class="fa fa-instagram icon-space" aria-hidden="true"></i>
-                        </a> -->
-
-                    </ul>
-
-
-
-
-
-
-                </div>
-            </footer>
-        </div>
+        </footer>
 
       <script src="webfunction.js"></script>
       <script src="https://code.jquery.com/jquery-1.12.2.min.js"></script>

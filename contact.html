@@ -12,11 +12,10 @@
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
         <link rel="stylesheet" href="CSS/webstyle.css">
-
     </head>
 
     <body>
-        <div class="header">
+        <div class="header"> <!-- Navigation bar for each page -->
             <div class="navbar navbar-default navbar-fixed-top">
                 <div class="container">
                     <div class="navbar-header">
@@ -25,7 +24,7 @@
                           <span class="icon-bar"></span>
                           <span class="icon-bar"></span>
                           <span class="icon-bar"></span>
-                        </button> <!-- How to convert the navbar into a dropdown menu when the browser is resized -->
+                        </button> <!-- Ask kevin how to convert the navbar into a dropdown menu when the browser is resized -->
 
                           <a class="navbar-brand" href="#welcome"> <!-- This would be the company logo whhich when pressed would navigate to the "about" page -->
                             <img class="nav-profile-brand" src="CSS/Images/meritherologo2.png"> <!-- With the image folder in the CSS folder, navigate the css to the image folder -->
@@ -35,48 +34,47 @@
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <ul class="nav navbar-nav navbar-right">
                             <li class="menu"> <a href="index.html" class="item"> Home </a> </li>
-                            <!--<li class="menu"> <a href="#mission" class="item"> Our Mission </a> </li> -->
+                            <!--<li class="menu"> <a href="#mission" class="item"> Our Mission </a> </li>-->
                             <li class="menu"> <a href="about.html" class="item"> About </a> </li>
                             <li class="menu"> <a href="contact.html" class="item"> Contact Us </a> </li>
                             <!-- <li class="menu"> <a href="#media" class="item"> Media </a> </li> -->
-                            <li class="menu"> <a href="login.html" class="item"> Account </a> </li> <!-- don't forget to close the a tag -->
+                            <li class="menu"> <a href="login.html" class="item"> Account </a> </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
 
+        <div class="contact section col-sm-12">
+            <div id="contact">
+                <h1 class="text-center contact-content"> Contact us </h1>
 
-        <div class="login">
-            <div class="container container-login">
-
-                <h1 class="promote"> Don't leave your grades in the dust! Get rewards for your effort! </h1>
-
-                <div class="form-group-login">
-                    <div class="login-section">
-                        <label for="username" class="username">  </label>
-                        <input type="text" class="login-user" id="type-name" placeholder="Username or Email"></input>
-
-                        <label for="password" class="password">  </label>
-                        <input type="text" class="login-pass" id="type-password" placeholder="Password"></input>
-
-                        <button class="btn btn-login" id="send-button"> Account </button>
+                <div class="container">
+                    <div class="form-group">
+                        <label for="Name" class="name"> Name </label>
+                        <input type="text" class="form-control" id="type-name" placeholder="Type your name here...">
                     </div>
 
-                <p class="account-signup text-center"><a href="registration.html"> Don't have an account? Sign up today! </a></p>
+
+
+                    <div class="form-group">
+                        <label for="sender" class="sender"> Email </label>
+                        <input type="text" class="form-control" id="type-email" placeholder="Type your email here...">
+                    </div>
 
 
 
+                    <div class="form-group">
+                        <label for="subject" class="subject"> Message </label>
+                        <textarea class="form-control message-box" id="type-message" placeholder=""></textarea>
+                    </div>
 
 
-                </div>
+                <button class="btn btn-primary btn-custom" type="submit" id="send-button"> Send </button>
+              </div>
+
             </div>
         </div>
-
-
-
-
-
 
 
 

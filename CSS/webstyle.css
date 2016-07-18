@@ -3,6 +3,7 @@ div{
 }
 .nav-profile-brand {
   max-height: 50px;
+  display: inline-block;
 }
 .navbar-brand{
   height: 50px;
@@ -12,13 +13,14 @@ div{
 }
 .container {
   font-size: 18px;
-  margin-top: 12.5px;
-  margin-bottom: 12.5px;
+  /* Don't add margin for the sections, instead apply padding to the navbar */
 }
 .navbar-fixed-top {
-  background: rgba(46,187,70,0.6);
+  background: rgba(255, 255, 255, 0.6);
   position: fixed;
-  border-color: transparent;
+  border: none;
+  padding-top: 12.5px;
+  padding-bottom: 12.5px;
 }
 .navbar-toggle{
   border-radius: 2px;
@@ -28,8 +30,15 @@ div{
   color: #1a1a1a;
 }
 .menu:hover{
-  background-color: #66ccff;
+  background-color: rgba(102, 204, 255, 1);
 }
+.dropdown{
+    display: none;
+}
+.dropdown:hover .dropdown-account-options {
+    display: block;
+}
+
 .btn-media{
   height: 30px;
   width: 50px;
@@ -54,6 +63,18 @@ h1{
 .mission{
   background-color: rgba(22, 22, 22, 1);
   font-size: 75px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(0, 77, 128, 0.5);
+}
+.mission:hover{
+    background-color: #fff;
+}
+.mission:hover .goal h1{
+    color: #000000;
+}
+.mission:hover .goal p{
+    color: #000000;
 }
 .mission-top{
   padding-top: 50px;
@@ -82,13 +103,13 @@ h1{
   color: blue;
 }
 .intro{
-  font-size: 50px;
+  font-size: 35px;
   font-weight: 600;
   color: rgba(255, 255, 255, 1);
   font-style: italic;
 }
 .intro:hover{
-  color: #003366;
+  color: rgba(22, 22, 22, 1);
 }
 #welcome{
   display: table;
@@ -110,6 +131,7 @@ h1{
 .text-left{
   text-align: left;
 }
+/* About/Profile page css starts here */
 .about{
   /*background-image: url("Images/pokemon.png");*/
   background-color: rgba(176, 173, 2200, 1);
@@ -130,17 +152,21 @@ h1{
 .profile-pic img{
   border-radius: 50%;
 }
+.pictures{
+  height: 180px;
+  width: 180px;
+}
 .pic{
   text-align: center;
   /*background-color: rgba(91, 122, 153, 0.7);*/
   padding-top: 10px;
   padding-bottom: 10px; /*Did I have to lower the padding from 20 to 10 or could i have just increaed the content height */
 }
-.container-content{
-  margin-top: 25px;
+.team-content{
+  padding-top: 100px;
   margin-bottom: 25px;
   text-align: center;
-  font-size: 60px;
+  font-size: 48px;
   font-weight: 700;
 }
 /*.hover-text{
@@ -162,19 +188,20 @@ h1{
 .pic:hover .hover-text{
   display: block;
 }
-.contact-content{
-  font-size: 72px;
-  font-weight: 500;
-  color: #ffffff;
-}
+/* Contact css starts here */
 .contact{
   /*background-image: url("Images/pikachu.jpg");*/
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-color: rgba(198, 221, 174, 1);
   font-size: 72px;
-  padding-top: 50px;
+  padding-top: 110px;
   padding-bottom: 100px;
+}
+.contact-content{
+  font-size: 72px;
+  font-weight: 500;
+  color: #ffffff;
 }
 .form-control{
   width: 40%;
@@ -185,55 +212,48 @@ h1{
 .form-group{
   padding-top: 30px;
 }
-.message-box{
-  height: 150px;
-}
 .btn-custom{
   margin-top: 15px;
   font-size: 20px;
 }
+.footer{
+  background-color: rgba(124, 113, 157, 1);
+  background-color: rgba(22, 22, 22, 1);
+}
+.media-line-break{
+  background-color: #fff;
+  width: 50%;
+  opacity: 0.5;
+}
+.merithero-social{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: Cousine;
+    color: rgba(255, 255, 255, 0.8);
+    padding-top: 15px;
+    padding-bottom: 0;
+
+}
+.merithero-underline{
+
+}
 .social-media-icons i.fa.fa-facebook-square{
   font-size: 50px;
   color: rgba(0, 0, 102, 1);
-  padding-top: 15px;
+  padding-top: 5px;
 }
 .social-media-icons i.fa.fa-twitter{
   font-size: 50px;
   color: rgba(0, 132, 180, 1);
-  padding-top: 15px;
+  padding-top: 5px;
 }
-.social-media-icons i.fa.fa-twitter{
-  font-size: 50px;
-  color: rgba(0, 132, 180, 1);
-  padding-top: 15px;
+.copyright{
+    padding-top: 15px;
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 0.8);
 }
 .icon-space{
   padding-left: 50px;
-}
-.footer{
-  background-color: rgba(124, 113, 157, 1);
-  height: 250px;
-}
-.follow-content{
-  color: #ffffff;
-  padding-top: 20px;
-  font-size: 48px;
-}
-.app-button{
-  width: 278px;
-  height: 86px;
-  margin-left: auto;
-  margin-right: auto;
-}
-hr .download-line-break{
-  height: 5px;
-  border: 1px solid #ffffff;
-  background-color: #fff;
-  width: 50%;
-}
-.pictures{
-  height: 180px;
-  width: 180px;
 }
 .login, .signup{
   background-image: url("Images/background.png");
@@ -243,7 +263,6 @@ hr .download-line-break{
   margin-top: 0;
   margin-bottom: 0;
   height: 705px;
-
 }
 .promote{
   color: #fff;
@@ -290,11 +309,13 @@ hr .download-line-break{
   margin-top: 30px;
   background-color: rgba(49, 176, 45, 1);
 }
-.account-signup{
+p.account-signup {
   color: #fff;
-  text-align: center;
-  font-size: 22px;
   padding-top: 35px;
+}
+p.account-signup a{
+    color: #fff;
+    font-size: 28px;
 }
 .account-login{
  color: #fff;
