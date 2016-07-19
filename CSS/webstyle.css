@@ -168,8 +168,14 @@ h1{
   text-align: left;
 }
 /* About/Profile page css starts here */
+/*By default, images adjusts starting from top left*/
 .about{
-  background-color: rgba(176, 173, 2200, 1);
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(203, 200, 232, 1),
+      rgba(176, 173, 220, 1),
+      rgba(100, 94, 186, 1)
+      );
   background-size: 100% 100%;
 }
 .row{
@@ -228,7 +234,12 @@ h1{
   /*background-image: url("Images/pikachu.jpg");*/
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-color: rgba(198, 221, 174, 1);
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(49, 112, 143, 1) 40%,
+      rgba(64, 146, 187, 1),
+      rgba(198, 221, 174, 1)
+    );
   font-size: 72px;
   padding-top: 110px;
   padding-bottom: 100px;
