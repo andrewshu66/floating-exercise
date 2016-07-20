@@ -12,12 +12,11 @@
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
         <link rel="stylesheet" href="CSS/webstyle.css">
-
     </head>
 
     <body>
         <div class="header">
-            <div class="navbar navbar-default navbar-fixed-top">
+            <div class="navbar navbar-default navbar-fixed-top navbar-account">
                 <div class="container">
                     <div class="navbar-header">
                         <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
@@ -42,8 +41,11 @@
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Account <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li class="account-drop-right"><a href="login.html"> Log In </a></li>
-                                    <li class="account-drop-right"><a href="registration.html"> Sign Up </a></li>
+                                    <li class="account-drop"><a href="overview.html"> Overview </a></li>
+                                    <li class="account-drop"><a href="profile.html"> Profile </a></li>
+                                    <li class="account-drop"><a href="grades.html"> Grades </a></li>
+                                    <li class="account-drop"><a href="goals.html"> Goals </a></li>
+                                    <li class="account-drop"><a href="donors.html"> Donors </a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -52,51 +54,39 @@
             </div>
         </div>
 
+        <div class="overview-home">
+            <div class="container">
+                <div class="overview-content text-center">
+                <hr>
+                <div class="row-overview text-center"> Profile </div>
+                    <hr class="">
+                    <br>
+                    <div class="col-lg-4">
+                        <div class="pic">
+                            <h1 class="overview-name"> Charles </h1>
+                            <div class="overview-pic">
 
-        <div class="signup">
-            <div class="container container-signup">
+                                <img src="CSS/Images/denicola1.jpg" class="pictures"> <!-- Images' name have to be exact with the file -->
+                                    <div class="hover-text">  </div>
+                                </img>
 
-              <!-- <h1 class="promote"> Don't leave your grades in the dust! Get rewards for your effort! </h1> -->
+                            </div>
 
-                <div class="form-group-signup">
-                    <div class="signup-section">
-                        <label for="username" class="username">  </label>
-                        <input type="text" class="signup-name" id="type-name" placeholder="Name"></input>
-
-                        <label for="school" class="password">  </label>
-                        <input type="text" class="signup-school" id="type-password" placeholder="School"></input>
-
-                        <label for="email" class="password">  </label>
-                        <input type="text" class="signup-email" id="type-password" placeholder="Email"></input>
-
-                        <label for="password" class="password">  </label>
-                        <input type="password" class="signup-pass" id="type-password" placeholder="Password"></input>
-
-                        <label for="password" class="password">  </label>
-                        <input type="password" class="signup-pass-confirm" id="type-password" placeholder="Confirm password"></input>
-
-                        <a href="login.html"><button class="btn btn-signup" id="send-button"> Sign up </button></a>
+                        </div>
                     </div>
 
-                <p class="account-login text-center"><a href="login.html"> Have an account? Log in! </a></p>
+                    <div class="col-lg-8">
+                        <h1 class=""> Description </h1>
+                        <hr class="half-line">
 
-
-
-
-
+                        <p class=""> Hard-working student with a 3.2 GPA </p>
+                    </div>
                 </div>
             </div>
         </div>
 
 
-
-
-
-
-
-
-
-        <script src="webfunction.js"></script>
+        <script src="webstyle.js"></script>
         <script src="https://code.jquery.com/jquery-1.12.2.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     </body>

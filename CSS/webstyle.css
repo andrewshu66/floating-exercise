@@ -16,11 +16,12 @@ div{
   /* Don't add margin for the sections, instead apply padding to the navbar */
 }
 .navbar-fixed-top {
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.8);
   position: fixed;
   border: none;
   padding-top: 12.5px;
   padding-bottom: 12.5px;
+  box-shadow: 0px 2px 2px #888888;
 }
 .navbar-toggle{
   border-radius: 2px;
@@ -31,6 +32,14 @@ div{
 }
 .menu:hover{
 
+}
+.dropdown-menu-right{
+    width: 200px;
+    position:relative;
+    float:right;
+}
+.account-drop{
+    font-size: 16px;
 }
 .dropdown-menu .account-drop a:hover{
     background-color: rgba(22, 22, 22, 0.8);
@@ -65,6 +74,19 @@ h1{
     background-color: rgba(22, 22, 22, 1);
     padding-top: 80px;
     padding-bottom: 60px;
+}
+.month-later{
+    background-color: rgba(22, 22, 22, 1);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    height: 150px;
+}
+.month{
+    font-size: 48px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: #fff;
 }
 .business{
   background-color: rgba(22, 22, 22, 1);
@@ -382,4 +404,57 @@ p.account-login a{
  text-align: center;
  font-size: 24px;
  padding-top: 10px;
+}
+.navbar-left {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    margin-top: 150px;
+}
+.navbar-account{
+    background-color: #f1f1f1;
+}
+.list-left a{
+    display: block;
+    color: #000;
+    font-size: 24px;
+    text-decoration: none;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.list-left a{
+    padding-top: 60px;
+}
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+.overview-home{
+    background-image: radial-gradient(
+        #554450,
+        #edd
+        );
+    height: 750px;
+}
+.overview-content{
+    font-size: 48px;
+    color: #fff;
+}
+.overview-name{
+    padding-bottom: 25px;
+}
+.overview-pic img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.row-overview{
+    padding-top: 50px;
+}
+.half-line{
+    width: 50%;
 }
