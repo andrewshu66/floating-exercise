@@ -283,6 +283,7 @@ h1{
 .btn-custom{
   margin-top: 15px;
   font-size: 20px;
+  color: #161616;
 }
 .footer{
   background-color: rgba(124, 113, 157, 1);
@@ -457,4 +458,7 @@ li a:hover {
 }
 .half-line{
     width: 50%;
+}
+.charles-info{
+    font-size: 18px;
 }
