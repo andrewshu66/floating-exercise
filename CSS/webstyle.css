@@ -2,7 +2,7 @@
       font-family: 'Din';
       src: url('din-light') format('truetype');
 }
-body{
+body div{
     font-family: 'din-light';
 }
 div{
@@ -187,7 +187,7 @@ h1{
   font-size: 125px;
   font-weight: 700;
   padding-top: 150px;
-  color: rgba(0, 51, 102, 1);
+  color: #7c719d;
 }
 .text-center{
   text-align: center;
@@ -328,12 +328,12 @@ h1{
   padding-left: 50px;
 }
 .login{
-  background-image: url("Images/background.png");
+  background-image: url("Images/background-login.jpg");
   background-size: 100% 100%;
   padding-bottom: 101px;
 }
 .signup{
-    background-image: url("Images/background.png");
+    background-image: url("Images/background-login.jpg");
     background-size: 100% 100%;
     padding-bottom: 61px;
 }
