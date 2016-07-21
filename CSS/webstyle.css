@@ -432,14 +432,14 @@ li a:hover {
     background-color: #555;
     color: white;
 }
-.overview-home, .grades-home{
+.overview-home, .grades-home, .goals-home{
     background-image: linear-gradient(
         #554450,
         #edd
         );
     height: 100%;
 }
-.overview-content, .grades-content{
+.overview-content, .grades-content, .goals-home{
     color: #fff;
 }
 .overview-name{
@@ -463,7 +463,7 @@ li a:hover {
 .overview-charles{
     font-size: 28px;
     color: rgba(0, 0, 102, 0.8);
-    margin-bottom: 50px;
+    padding-top: 25px;
 }
 .charles-progress{
     padding-top: 125px;
@@ -471,7 +471,7 @@ li a:hover {
 .row-fill{
   padding-bottom: 50px;
 }
-.prev-goals, .gradebook{
+.prev-goals{
     font-size: 24px;
 }
 .grade-space img{
@@ -483,4 +483,8 @@ li a:hover {
 .previous-gpa, .current-gpa{
     padding-top: 30px;
     font-size: 36px;
+}
+.charles-gpa-progress img{
+    width: 700px;
+    height: 300px;
 }
