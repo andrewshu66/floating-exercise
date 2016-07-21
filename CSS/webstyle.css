@@ -1,3 +1,10 @@
+@font-face {
+      font-family: 'Din';
+      src: url('din-light') format('truetype');
+}
+body{
+    font-family: 'din-light', 'Helvetica', sans-serif;
+}
 div{
   transition-duration: 3s;
 }
@@ -147,7 +154,7 @@ h1{
 }
 .cause{
   font-size: 18px;
-  font-family: 'Helvetica', 'Arial', sans-serif;
+
   padding-top: 25px;
   padding-bottom: 50px;
   color: rgba(160, 160, 160, 1);
@@ -156,7 +163,6 @@ h1{
 }
 .strategy{
     font-size: 28px;
-    font-family: 'Helvetica', 'Arial', sans-serif;
     padding-top: 25px;
     padding-bottom: 50px;
     color: #fff;
