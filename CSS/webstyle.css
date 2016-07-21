@@ -199,7 +199,6 @@ h1{
       rgba(100, 94, 186, 1)
       );
   background-size: 100% 100%;
-  height: 100vh;
 }
 .row{
   padding-bottom: 50px;
@@ -441,26 +440,31 @@ li a:hover {
         #554450,
         #edd
         );
-    height: 750px;
+    height: 100%;
 }
 .overview-content{
-    font-size: 48px;
     color: #fff;
 }
 .overview-name{
     padding-bottom: 25px;
 }
 .overview-pic img{
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
 }
 .row-overview{
     padding-top: 50px;
+    font-size: 48px;
 }
 .half-line{
     width: 50%;
 }
 .charles-info{
     font-size: 36px;
+}
+.overview-charles{
+    font-size: 28px;
+    color: rgba(0, 0, 102, 0.8);
+    margin-bottom: 50px;
 }
