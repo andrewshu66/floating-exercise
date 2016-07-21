@@ -265,6 +265,7 @@ h1{
   font-size: 72px;
   padding-top: 110px;
   padding-bottom: 100px;
+  height: 100vh;
 }
 .contact-content{
   font-size: 72px;
@@ -460,5 +461,5 @@ li a:hover {
     width: 50%;
 }
 .charles-info{
-    font-size: 18px;
+    font-size: 36px;
 }
