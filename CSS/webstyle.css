@@ -3,7 +3,7 @@
       src: url('din-light') format('truetype');
 }
 body{
-    font-family: 'din-light', 'Helvetica', sans-serif;
+    font-family: 'din-light';
 }
 div{
   transition-duration: 3s;
